@@ -55,7 +55,7 @@ function mostrarResultados() {
       <div>
         <input type="checkbox" id="${checkboxId}" onchange="borrarResultado(${index})">
         <label for="${checkboxId}">
-          Nombre Responsable: ${resultado.nombre}, <br>Tarea: ${resultado.tarea}
+          <strong>Nombre Responsable:</strong> ${resultado.nombre} <br><strong>Tarea:</strong> ${resultado.tarea}
         </label>
       </div>
     `;

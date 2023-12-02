@@ -23,11 +23,15 @@ body {
     flex-direction: column;
   }
   
-  label {
-    margin-bottom: 8px;
+  /* Estilo para el campo de entrada "Nombre Responsable" */
+  #nombre {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
   }
   
-  input[type="text"] {
+  /* Estilo para el campo de entrada "Tarea" */
+  #tarea {
     padding: 8px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
@@ -40,28 +44,7 @@ body {
     cursor: pointer;
   }
   
-  /* Estilos para los resultados */
+  /* Estilos para los resultados, el botón de borrar y otros elementos */
   #resultados {
     margin-top: 20px;
-  }
-  
-  #resultados div {
-    margin-bottom: 10px;
-  }
-  
-  input[type="checkbox"] {
-    margin-right: 8px;
-  }
-  
-  /* Estilos para el botón de borrar resultados */
-  #borrarResultados {
-    background-color: #e74c3c;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  #borrarResultados:hover {
-    background-color: #c0392b;
   }
