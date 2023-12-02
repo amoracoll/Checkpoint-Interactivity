@@ -1,0 +1,36 @@
+Copy code
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título de la Página</title>
+  <!--Vincular archivo CSS-->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Vincular archivo Javascript -->
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>TO-DO List</h1>
+  </header>
+  <!-- Fin del encabezado -->
+
+  <main>
+    <form id="miFormulario">
+      <!-- Input de texto -->
+      <label for="nombre">Responsable Tarea:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe el nombre del responsable" required>
+      <br>
+      <!-- Input de la tarea -->
+      <label for="tarea">Tarea:</label>
+      <input type="text" id="tarea" name="tarea" placeholder="Escribe el nombre de la tarea" required>
+      <br>
+      <!-- Botón de envío -->
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="resultados"></div>
+  </main>
+</body>
+</html>
